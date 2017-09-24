@@ -41,7 +41,7 @@
     "type": "git",
     "url": "git+https://github.com/express-global-solutions/website.git"
   },
-  "author": "whoisandie",
+  "author": "dineshs",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.4.0",

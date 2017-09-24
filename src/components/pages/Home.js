@@ -6,6 +6,7 @@ import ga from 'react-ga'
 
 import Carousel from '../common/Carousel'
 import Clients from '../common/Clients'
+import Contact from './Contact'
 
 class Home extends Component {
   componentDidMount() {
@@ -17,6 +18,7 @@ class Home extends Component {
     const { history } = this.props
     return (
       <div className="home">
+        <Contact title="Custom Contact Us" />
         <Helmet title="Home" />
         <Carousel />
         <div className="marketing">

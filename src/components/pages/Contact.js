@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PropTypes, Component } from 'react'
 import Helmet from 'react-helmet'
 import { connect } from 'react-redux'
 import ga from 'react-ga'
@@ -101,6 +101,7 @@ class Contact extends Component {
     return (
       <div className="contact">
         <Helmet title="Get in touch" />
+        <h4>{this.props.title}</h4>
         <div className="heading">
           <div className="container">
             <div className="row">
@@ -151,6 +152,14 @@ class Contact extends Component {
       </div>
     );
   }
+}
+
+Contact.defaultProps = {
+  title: 'Contact Us'
+}
+
+Contact.propTypes = {
+  title: PropTypes.string
 }
 
 function mapStateToProps({ routing }) {
