@@ -54,9 +54,7 @@ class Home extends Component {
                   <span className="icon icon-users"></span>
                 </div>
                 <h3>Staffing</h3>
-                <p>Put the right people on the right job through end-to-end Professional Services.</p>
-                <p>Minimize time to market and ensure faster ROI through cutting edge technology services.</p>
-                <p>To do the end-to-end Professional Services.</p>                
+                <p>Put the right people on the right job through end-to-end Professional Services.</p>                             
                 <button type="button" className="learn-btn btn btn-primary hidden-xs">Learn more</button>
               </Link>
             </div>
